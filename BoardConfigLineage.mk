@@ -22,6 +22,7 @@ BOARD_VENDOR_DLKMIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 
 # VINTF
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE += device/google/caimito/manifest_ext.xml
 DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
     device/google/caimito/device_framework_matrix_product_ext.xml

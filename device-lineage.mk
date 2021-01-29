@@ -73,6 +73,9 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     sensors.dynamic_sensor_hal
 
+# Touch
+include hardware/google/pixel/touch/device.mk
+
 # USB
 PRODUCT_VENDOR_PROPERTIES += \
     ro.usb.uvc.enabled=true

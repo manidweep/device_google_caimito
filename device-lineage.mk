@@ -62,6 +62,9 @@ include hardware/google/pixel/lineage_health/device.mk
 DEVICE_PACKAGE_OVERLAYS += device/google/caimito/overlay-lineage/vendor
 PRODUCT_PACKAGE_OVERLAYS += device/google/caimito/overlay-lineage/product
 
+# PowerShare
+include hardware/google/pixel/powershare/device.mk
+
 # Radio
 PRODUCT_VENDOR_PROPERTIES += \
     keyguard.no_require_sim=true \

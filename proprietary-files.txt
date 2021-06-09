@@ -23,7 +23,7 @@ product/etc/permissions/com.google.pixel.camera.services.lyricconfigprovider.imp
 product/etc/permissions/com.verizon.apn.xml
 product/etc/permissions/com.verizon.services.xml
 product/etc/permissions/features-verizon.xml
-product/etc/permissions/privapp-permissions-google-p.xml
+product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-pixel.xml
 product/etc/sysconfig/GoogleCamera_6gb_or_more_ram.xml
 product/etc/sysconfig/allowlist_com.android.omadm.service.xml
 product/etc/sysconfig/allowlist_com.shannon.imsservice.xml
@@ -84,7 +84,7 @@ system_ext/etc/permissions/com.shannon.imsservice.xml
 system_ext/etc/permissions/com.shannon.rcsservice.xml
 system_ext/etc/permissions/google-ril.xml
 system_ext/etc/permissions/oemrilhook.xml
-system_ext/etc/permissions/privapp-permissions-google-se.xml
+system_ext/etc/permissions/privapp-permissions-google-se.xml:system_ext/etc/permissions/privapp-permissions-google-se-pixel.xml
 system_ext/etc/permissions/privapp-permissions-satellite.xml
 system_ext/etc/permissions/vzw_mvs_permissions.xml
 system_ext/etc/public.libraries-google.txt

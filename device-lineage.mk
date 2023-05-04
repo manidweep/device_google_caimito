@@ -70,6 +70,10 @@ PRODUCT_PACKAGE_OVERLAYS += device/google/caimito/overlay-lineage/product
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
+# Quick Start
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.quick_start.oem_id=00e0
+
 # Radio
 PRODUCT_VENDOR_PROPERTIES += \
     keyguard.no_require_sim=true \

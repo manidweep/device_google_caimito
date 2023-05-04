@@ -9,3 +9,7 @@ $(call inherit-product, device/google/caimito/device-lineage.mk)
 PRODUCT_PACKAGE_OVERLAYS += device/google/caimito/caiman/overlay-lineage/product
 PRODUCT_PACKAGES += \
     PixelDisplayServiceOverlayCaiman
+
+# Quick Start
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.quick_start.device_id=caiman

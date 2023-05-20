@@ -55,6 +55,9 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.hotword.detection_service_required=true
 
+# Lineage Health
+include hardware/google/pixel/lineage_health/device.mk
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/google/caimito/overlay-lineage/vendor
 PRODUCT_PACKAGE_OVERLAYS += device/google/caimito/overlay-lineage/product

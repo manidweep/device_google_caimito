@@ -7,6 +7,10 @@
 from os import path
 
 from extract_utils.file import File
+from extract_utils.fixups_blob import (
+    blob_fixup,
+    blob_fixups_user_type,
+)
 from extract_utils.fixups_lib import (
     lib_fixup_remove_proto_version_suffix,
     lib_fixups_user_type,
@@ -44,10 +48,16 @@ lib_fixups: lib_fixups_user_type = {
     ): lib_fixup_vendor_suffix,
 }
 
+blob_fixups: blob_fixups_user_type = {
+    'product/etc/felica/common.cfg': blob_fixup()
+        .patch_file('../japan-nfc.patch')
+}  # fmt: skip
+
 module = ExtractUtilsModule(
     'komodo',
     'google',
     device_rel_path,
+    blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,
     check_elf=True,

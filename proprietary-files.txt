@@ -118,7 +118,6 @@ system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk;PRESIGNED
 system_ext/priv-app/OemRilService/OemRilService.apk;PRESIGNED
 system_ext/priv-app/PixelDisplayService/PixelDisplayService.apk
 system_ext/priv-app/PixelImsMediaService/PixelImsMediaService.apk
-system_ext/priv-app/PixelNfc/PixelNfc.apk
 system_ext/priv-app/PixelQualifiedNetworksService/PixelQualifiedNetworksService.apk
 system_ext/priv-app/PixelSatelliteService/PixelSatelliteService.apk
 system_ext/priv-app/RilConfigService/RilConfigService.apk

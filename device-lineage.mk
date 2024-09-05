@@ -55,6 +55,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.hotword.detection_service_required=true
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += device/google/caimito/overlay-lineage/vendor
+PRODUCT_PACKAGE_OVERLAYS += device/google/caimito/overlay-lineage/product
+
 # Radio
 PRODUCT_VENDOR_PROPERTIES += \
     keyguard.no_require_sim=true \

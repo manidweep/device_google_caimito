@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The Android Open Source Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <bool name="def_screen_brightness_automatic_mode">true</bool>
+    <bool name="def_vibrate_when_ringing">true</bool>
+    <integer name="def_screen_off_timeout">30000</integer>
+</resources>

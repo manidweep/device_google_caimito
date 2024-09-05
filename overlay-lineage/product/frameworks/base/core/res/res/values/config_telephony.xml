@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The Android Open Source Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Indicating whether the retry timer from setup data call response for data throttling should
+         be honored for emergency network request. By default this is off, meaning for emergency
+         network requests, the data frameworks will ignore the previous retry timer passed in from
+         setup data call response. -->
+    <bool name="config_honor_data_retry_timer_for_emergency_network">true</bool>
+
+    <!-- Indicates the data limit in bytes that can be used for bootstrap sim until factory reset.
+         -1 means unlimited. -->
+    <integer name="config_esim_bootstrap_data_limit_bytes">235929600</integer>
+
+    <!-- Telephony qualified networks service package name to bind to by default. -->
+    <string name="config_qualified_networks_service_package">com.android.qns</string>
+
+    <!-- Defines metrics pull cooldown period. The default cooldown period is 23 hours,
+         some Telephony metrics need to be pulled more frequently  -->
+    <integer name="config_metrics_pull_cooldown_millis">18000000</integer>
+</resources>

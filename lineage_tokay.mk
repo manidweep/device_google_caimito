@@ -5,7 +5,7 @@
 
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/google/caimito/aosp_tokay.mk)
-$(call inherit-product, device/google/caimito/device-lineage.mk)
+$(call inherit-product, device/google/caimito/tokay/device-lineage.mk)
 $(call inherit-product, vendor/google/tokay/tokay-vendor.mk)
 
 PRODUCT_BRAND := google

@@ -11,6 +11,7 @@ system_ext/lib64/libaptXHD_encoder.so
 system_ext/lib64/libaptX_encoder.so
 
 # Camera
+product/priv-app/GoogleCamera/GoogleCamera.apk;OVERRIDES=Aperture,Camera2;PRESIGNED
 product/etc/permissions/androidx.camera.extensions.impl.xml
 product/etc/permissions/com.google.pixel.camera.connectivity.impl.xml
 product/etc/permissions/com.google.pixel.camera.services.cameraidremapper.impl.xml

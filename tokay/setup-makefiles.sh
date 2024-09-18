@@ -49,6 +49,14 @@ function lib_to_package_fixup_vendor_variants() {
             vendor.samsung_slsi.telephony.hardware.radioExternal@1.0)
             echo "$1-vendor"
             ;;
+        libprotobuf-cpp-full-21.12)
+            echo "libprotobuf-cpp-full"
+            ;;
+        libprotobuf-cpp-lite-21.12)
+            echo "libprotobuf-cpp-lite"
+            ;;
+        libacryl | \
+            libexynosv4l2) ;;
         *)
             return 1
             ;;
@@ -67,9 +75,9 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 # Warning headers and guards
 write_headers
 
-write_makefiles "${MY_DIR}/proprietary-files.txt" true
-write_makefiles "${MY_DIR}/proprietary-files-carriersettings.txt" true
-write_makefiles "${MY_DIR}/proprietary-files-vendor.txt" true
+write_makefiles "${MY_DIR}/proprietary-files.txt"
+write_makefiles "${MY_DIR}/proprietary-files-carriersettings.txt"
+write_makefiles "${MY_DIR}/proprietary-files-vendor.txt"
 
 append_firmware_calls_to_makefiles "${MY_DIR}/proprietary-firmware.txt"
 

@@ -1,0 +1,2 @@
+product/etc/sysconfig/firproximity.xml
+product/priv-app/HealthIntelligencePrebuilt-1762/HealthIntelligencePrebuilt-1762.apk;PRESIGNED

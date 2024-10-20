@@ -5,6 +5,7 @@
 
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/google/caimito/aosp_komodo.mk)
+$(call inherit-product, vendor/google/komodo/komodo-vendor.mk)
 
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 9 Pro XL

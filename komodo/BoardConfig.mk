@@ -27,6 +27,7 @@ include device/google/zumapro/BoardConfig-common.mk
 -include vendor/google_devices/komodo/proprietary/BoardConfigVendor.mk
 include device/google/caimito-sepolicy/komodo-sepolicy.mk
 include device/google/caimito/wifi/BoardConfig-wifi.mk
+include device/google/caimito/komodo/BoardConfigLineage.mk
 
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 -include device/google/common/etm/6_1/BoardUserdebugModules.mk

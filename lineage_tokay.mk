@@ -5,11 +5,21 @@
 
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/google/caimito/aosp_tokay.mk)
+$(call inherit-product, device/google/caimito/device-lineage.mk)
 $(call inherit-product, vendor/google/tokay/tokay-vendor.mk)
 
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 9
 PRODUCT_NAME := lineage_tokay
+
+PRODUCT_SYSTEM_BRAND := google
+PRODUCT_SYSTEM_MANUFACTURER := Google
+
+PRODUCT_BRAND_FOR_ATTESTATION := google
+PRODUCT_DEVICE_FOR_ATTESTATION := tokay
+PRODUCT_MANUFACTURER_FOR_ATTESTATION := Google
+PRODUCT_MODEL_FOR_ATTESTATION := Pixel 9
+PRODUCT_NAME_FOR_ATTESTATION := tokay
 
 TARGET_SCREEN_HEIGHT := 2424
 TARGET_SCREEN_WIDTH := 1080

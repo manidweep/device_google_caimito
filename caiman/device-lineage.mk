@@ -6,5 +6,6 @@
 $(call inherit-product, device/google/caimito/device-lineage.mk)
 
 # Overlays
+PRODUCT_PACKAGE_OVERLAYS += device/google/caimito/caiman/overlay-lineage/product
 PRODUCT_PACKAGES += \
     PixelDisplayServiceOverlayCaiman

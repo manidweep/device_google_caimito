@@ -32,9 +32,6 @@ gnss_prebuilt_etc {
             user: {
                 src: "user/gps.cfg",
             },
-            userdebug: {
-                src: "userdebug/gps.cfg",
-            },
             eng: {
                 src: "userdebug/gps.cfg",
             },

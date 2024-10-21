@@ -29,6 +29,6 @@ include device/google/caimito-sepolicy/tokay-sepolicy.mk
 include device/google/caimito/wifi/BoardConfig-wifi.mk
 include device/google/caimito/tokay/BoardConfigLineage.mk
 
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 -include device/google/common/etm/6_1/BoardUserdebugModules.mk
 endif

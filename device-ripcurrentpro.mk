@@ -115,7 +115,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.audio.stereo_spatialization_enabled=true
 
 # Bluetooth hci_inject test tool
-PRODUCT_PACKAGES_DEBUG += \
+PRODUCT_PACKAGES_ENG += \
     hci_inject
 
 # Bluetooth OPUS codec
@@ -123,11 +123,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.bluetooth.opus.enabled=true
 
 # Bluetooth SAR test tool
-PRODUCT_PACKAGES_DEBUG += \
+PRODUCT_PACKAGES_ENG += \
     sar_test
 
 # Bluetooth EWP test tool
-PRODUCT_PACKAGES_DEBUG += \
+PRODUCT_PACKAGES_ENG += \
     ewp_tool
 
 # Bluetooth AAC VBR
@@ -135,7 +135,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.bluetooth.a2dp_aac.vbr_supported=true
 
 # Override BQR mask to enable LE Audio Choppy report, remove BTRT logging
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.bluetooth.bqr.event_mask=262238
 else

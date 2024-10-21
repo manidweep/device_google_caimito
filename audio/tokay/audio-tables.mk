@@ -65,7 +65,7 @@ PRODUCT_PACKAGES += \
     default_mic_compensation.bin
 
 # userdebug and eng specific
-PRODUCT_PACKAGES_DEBUG += \
+PRODUCT_PACKAGES_ENG += \
     BLUETOOTH.mods \
     HANDSFREE.mods \
     HANDSET.mods \
@@ -75,7 +75,7 @@ PRODUCT_PACKAGES_DEBUG += \
     test_config.ini \
     test_preset.mps
 
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 # Mixer Path Configuration for Audio Speaker Calibration Tool crus_sp_cal
 PRODUCT_COPY_FILES += \
     device/google/caimito/audio/$(AUDIO_TABLE_FOLDER)/cs35l41/crus_sp_cal_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/crus_sp_cal_mixer_paths.xml

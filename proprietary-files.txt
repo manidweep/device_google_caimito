@@ -62,6 +62,9 @@ product/priv-app/PixelCameraServices/PixelCameraServices.apk;PRESIGNED
 product/priv-app/SatelliteGatewayPrebuilt/SatelliteGatewayPrebuilt.apk
 product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
 product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
+product/usr/share/ime/google/d3_lms/ko_2018030706.zip
+product/usr/share/ime/google/d3_lms/mozc.data
+product/usr/share/ime/google/d3_lms/zh_CN_2018030706.zip
 system_ext/app/OemRilHookService/OemRilHookService.apk
 system_ext/app/PersistentBackgroundCameraServices/PersistentBackgroundCameraServices.apk
 system_ext/app/PersistentBackgroundServices/PersistentBackgroundServices.apk

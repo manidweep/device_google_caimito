@@ -55,6 +55,11 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.hotword.detection_service_required=true
 
+# Keyboard
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.ime.system_lm_dir=/product/usr/share/ime/google/d3_lms \
+    ro.com.google.ime.theme_id=5
+
 # Lineage Health
 include hardware/google/pixel/lineage_health/device.mk
 

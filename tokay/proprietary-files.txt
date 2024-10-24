@@ -1,5 +1,4 @@
 # Audio
-product/etc/ambient/matcher_tah.leveldb
 product/etc/firmware/music_detector.descriptor
 product/etc/firmware/music_detector.sound_model
 product/etc/firmware/music_detector.sound_model_2
@@ -35,10 +34,6 @@ system_ext/framework/com.google.pixel.camera.connectivity.jar
 system_ext/framework/com.google.pixel.camera.services.cameraidremapper.jar
 system_ext/framework/com.google.pixel.camera.services.lyricconfigprovider.jar
 system_ext/lib64/vendor.google.whitechapel.audio.extension-V2-ndk.so
-
-# Dialer
-product/etc/permissions/com.google.android.dialer.support.xml
-product/framework/com.google.android.dialer.support.jar
 
 # Display
 system_ext/lib64/libpixeldisplaymanager_jni.so;SYMLINK=system_ext/priv-app/PixelDisplayService/lib/arm64/libpixeldisplaymanager_jni.so
@@ -84,23 +79,6 @@ system_ext/priv-app/ShannonRcs/ShannonRcs.apk;PRESIGNED
 
 # Permissions
 product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-lineage.xml
-product/etc/sysconfig/GoogleCamera_6gb_or_more_ram.xml
-product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
-product/etc/sysconfig/nexus.xml
-product/etc/sysconfig/pixel_experience_2017.xml
-product/etc/sysconfig/pixel_experience_2018.xml
-product/etc/sysconfig/pixel_experience_2019.xml
-product/etc/sysconfig/pixel_experience_2019_midyear.xml
-product/etc/sysconfig/pixel_experience_2020.xml
-product/etc/sysconfig/pixel_experience_2020_midyear.xml
-product/etc/sysconfig/pixel_experience_2021.xml
-product/etc/sysconfig/pixel_experience_2021_midyear.xml
-product/etc/sysconfig/pixel_experience_2022.xml
-product/etc/sysconfig/pixel_experience_2022_midyear.xml
-product/etc/sysconfig/pixel_experience_2023.xml
-product/etc/sysconfig/pixel_experience_2023_midyear.xml
-product/etc/sysconfig/pixel_experience_2024.xml
-product/etc/sysconfig/pixel_experience_2024_midyear.xml
 system_ext/etc/permissions/privapp-permissions-google-se.xml:system_ext/etc/permissions/privapp-permissions-google-se-lineage.xml
 
 # RIL
@@ -113,9 +91,6 @@ system_ext/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so
 system_ext/priv-app/OemRilService/OemRilService.apk;PRESIGNED
 
 # Radio
-product/etc/permissions/com.android.sdm.plugins.connmo.xml
-product/etc/permissions/com.android.sdm.plugins.dcmo.xml
-product/etc/permissions/com.android.sdm.plugins.diagmon.xml
 product/lib64/libdmengine.so;SYMLINK=product/priv-app/DMService/lib/arm64/libdmengine.so
 product/lib64/libdmjavaplugin.so;SYMLINK=product/priv-app/DMService/lib/arm64/libdmjavaplugin.so
 product/priv-app/CarrierSettings_signed_47.0.602606545/CarrierSettings_signed_47.0.602606545.apk;PRESIGNED
@@ -127,12 +102,10 @@ product/priv-app/DiagMon/DiagMon.apk
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
 system_ext/etc/default-permissions/default-permissions-euiccpixel.xml
-system_ext/etc/permissions/com.android.omadm.radioconfig.xml
 system_ext/etc/permissions/com.google.android.rilextension.xml
 system_ext/etc/permissions/com.google.euiccpixel.permissions.xml
 system_ext/etc/permissions/com.google.euiccpixel.xml
 system_ext/etc/permissions/google-ril.xml
-system_ext/framework/RadioConfigLib.jar
 system_ext/framework/google-ril.jar
 system_ext/priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
 system_ext/priv-app/ConnectivityThermalPowerManager/ConnectivityThermalPowerManager.apk
@@ -147,14 +120,7 @@ system_ext/priv-app/ril-extension/ril-extension.apk;PRESIGNED
 
 # VZW
 product/app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
-product/etc/permissions/com.android.omadm.service.xml
-product/etc/permissions/com.google.omadm.trigger.xml
-product/etc/permissions/com.verizon.apn.xml
-product/etc/permissions/com.verizon.services.xml
-product/etc/permissions/features-verizon.xml
-product/etc/sysconfig/allowlist_com.android.omadm.service.xml
 product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk;PRESIGNED
 product/priv-app/OemDmTrigger/OemDmTrigger.apk
 product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
-system_ext/etc/permissions/vzw_mvs_permissions.xml
 system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk;PRESIGNED
